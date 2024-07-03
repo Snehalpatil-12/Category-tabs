@@ -2,15 +2,23 @@
 This project is a responsive product details section for an e-commerce website, designed to display product information along with options to choose variants and add the item to the cart.
 
 Features
-Responsive Design: Ensures a seamless experience across various devices and screen sizes.
-Product Image Gallery: Displays a large product image with thumbnail images below. Clicking on thumbnails updates the main product image.
-Product Information: Includes vendor, title, price, discount, and description.
-Variant Selectors: Allows users to choose different colors and sizes of the product.
-Quantity Selector: Enables users to increase or decrease the quantity of the product.
-Add to Cart: Adds the selected product variant and quantity to the cart.
-Technologies Used
+1.Responsive Design: Ensures a seamless experience across various devices and screen sizes.
+
+2.Product Image Gallery: Displays a large product image with thumbnail images below. Clicking on thumbnails updates the main product image.
+
+3.Product Information: Includes vendor, title, price, discount, and description.
+
+4.Variant Selectors: Allows users to choose different colors and sizes of the product.
+
+5.Quantity Selector: Enables users to increase or decrease the quantity of the product.
+
+6.Add to Cart: Adds the selected product variant and quantity to the cart.
+
+*Technologies Used
 HTML5: For structuring the content.
+
 CSS3: For styling the webpage, including transitions and animations.
+
 JavaScript: For dynamic interactions and DOM manipulation.
 
 Installation
