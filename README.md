@@ -33,5 +33,6 @@ Usage
 1.Selecting Variants:
 Click on a color or size option to select it. The selected option will animate slightly to indicate selection.
 Adjust quantity
+
 2.Adding to Cart:
 Click the "Add to Cart" button to add the selected product variant and quantity to the cart.
