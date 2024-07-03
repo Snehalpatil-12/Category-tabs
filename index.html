@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Category tabs</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <body>
+        <div class="product-page">
+            <div class="product-image">
+                <img src="mainimage.png" alt="Embrace Sideboard" id="main-image">
+                <div class="thumbnail-images" id="thumbnail-images">
+                    <!-- Thumbnails will be inserted here -->
+                     <img src="thumbimage.png" >
+                </div>
+            </div>
+            <div class="product-details">
+                <p class="vendor" id="product-vendor"></p>
+                <h1 id="product-title"></h1>
+                <p class="price">
+                    <span class="original-price" id="product-compare-price"></span>
+                    <span class="discount" id="product-discount"></span> 
+
+                    <br>
+                      <span id="product-price"></span> 
+                    
+                    
+                </p>
+                <div class="color-options">
+                    <label>Choose a Color:</label>
+                    <div class="colors" id="color-options">
+                        <!-- Color options will be inserted here -->
+                    </div>
+                </div>
+                <div class="size-options">
+                    <label>Choose a Size:</label>
+                    <div class="sizes" id="size-options">
+                        <!-- Size options will be inserted here -->
+                    </div>
+                </div>
+                <div class="quantity">
+                    <label>Quantity:</label>
+                    <input type="number" value="1" min="1" id="quantity">
+                </div>
+                <br>
+                <button class="add-to-cart" id="add-to-cart">Add To Cart</button>
+                <p class="description" id="product-description"></p>
+            </div>
+        </div>
+        <div class="add-to-cart-message" id="add-to-cart-message">Product added to cart!</div>
+        <script src="script.js"></script>
+</body>
+
+</html>
